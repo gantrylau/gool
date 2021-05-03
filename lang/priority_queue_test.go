@@ -1,4 +1,4 @@
-package pkg
+package lang
 
 import (
 	"fmt"
@@ -27,7 +27,7 @@ func (s *IntSorter) Swap(i, j int) {
 	(*s)[i], (*s)[j] = (*s)[j], (*s)[i]
 }
 
-func Test1(t *testing.T)  {
+func Test1(t *testing.T) {
 	q := NewPriorityQueue()
 
 	q.Push(&Node{priority: 8, value: 1})

@@ -1,4 +1,4 @@
-package pkg
+package lang
 
 import (
 	"container/heap"
